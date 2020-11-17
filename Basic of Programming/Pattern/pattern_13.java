@@ -1,0 +1,44 @@
+/*
+Question
+1. You are given a number n.
+2. You've to create a pattern as shown in output format
+
+Input Format
+A number n
+
+Constraints
+1 <= n <= 10
+
+Sample Input
+5
+
+Sample Output
+1	
+1	1	
+1	2	1	
+1	3	3	1	
+1	4	6	4	1	
+*/
+
+import java.util.*;
+public class pattern_13 {
+    public static void main(String[] args){
+        Scanner scn = new Scanner(System.in);
+
+        int num = scn.nextInt();
+       
+        for(int i = 0; i < num; i++){
+            
+            int icj = 1;
+            for(int j = 0; j <= i; j++){
+                
+                System.out.print(icj + "\t");
+                int icjp1 = icj * (i - j) / (j + 1);
+                icj = icjp1;
+             
+            }
+            System.out.println();
+        }
+
+    }
+}
