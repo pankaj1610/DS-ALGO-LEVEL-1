@@ -93,7 +93,7 @@ public static void main(String[] args) throws Exception {
         k--;
         
     }
-    //if carry is left print it
+    //Print remaining carry
     if(carry != 0){
         System.out.println(carry);
     }
