@@ -48,10 +48,7 @@ Apporach
 2.Reverse the frst part of array.
 3.Reverse the second part of array.
 4.Then reverse the whole array. 
-<<<<<<< HEAD
-=======
 
->>>>>>> e208883674c5bc415395399bbbb3992066dcc72a
 */
 
 
