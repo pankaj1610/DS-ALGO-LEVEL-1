@@ -5,6 +5,7 @@ Question
 3. You are given a number k.
 4. Rotate the array a, k times to the right (for positive values of k), and to
 the left for negative values of k.
+<<<<<<< HEAD
 Input Format
 Input is managed for you
 Output Format
@@ -12,6 +13,19 @@ Output is managed for you
 Constraints
 0 <= n < 10^4
 -10^9 <= a[i], k <= 10^9
+=======
+
+Input Format
+Input is managed for you
+
+Output Format
+Output is managed for you
+
+Constraints
+0 <= n < 10^4
+-10^9 <= a[i], k <= 10^9
+
+>>>>>>> e208883674c5bc415395399bbbb3992066dcc72a
 Sample Input
 5
 1
@@ -20,13 +34,24 @@ Sample Input
 4
 5
 3
+<<<<<<< HEAD
 Sample Output
 3 4 5 1 2
+=======
+
+Sample Output
+3 4 5 1 2
+
+>>>>>>> e208883674c5bc415395399bbbb3992066dcc72a
 Apporach
 1.Divide the array into two halves from k(rotation).
 2.Reverse the frst part of array.
 3.Reverse the second part of array.
 4.Then reverse the whole array. 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e208883674c5bc415395399bbbb3992066dcc72a
 */
 
 
@@ -89,4 +114,8 @@ public static void main(String[] args) throws Exception {
     display(a);
  }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e208883674c5bc415395399bbbb3992066dcc72a
