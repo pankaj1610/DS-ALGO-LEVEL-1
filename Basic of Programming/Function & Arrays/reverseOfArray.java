@@ -38,12 +38,8 @@ public class reverseOfArray{
     System.out.println(sb);
   }
 
-  public static void reverse(int[] a){package Basic of Programming.Function & Arrays;
-  
-  public class reverseOfArray {
+  public static void reverse(int[] a){
       
-  }
-  
     int i = 0;
     int j = a.length - 1;
     while(i <= j){
