@@ -40,7 +40,7 @@ Apporach
 import java.io.*;
 import java.util.*;
 
-public class Main{
+public class rotateAnArray{
   public static void display(int[] a){
     StringBuilder sb = new StringBuilder();
 
