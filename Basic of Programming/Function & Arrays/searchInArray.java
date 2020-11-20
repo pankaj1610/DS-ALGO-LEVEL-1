@@ -34,26 +34,31 @@ Sample Input
 Sample Output
 2
 */
+import java.io.*;
 import java.util.*;
 
 public class searchInArray{
 
 public static void main(String[] args) throws Exception {
-    
-    Scanner scn = new Scanner(System.in);
+    // write your code here
+     Scanner scn = new Scanner(System.in);
     int num = scn.nextInt();
     int [] arr = new int[num];
-    int index = -1;
     for(int i = 0; i < arr.length; i++){
         arr[i] = scn.nextInt();
     }
     int key = scn.nextInt();
+    int index = -1;
     for(int j = 0; j < arr.length; j++){
         if(arr[j] == key){
-            System.out.println(j);
+           index = j;
+            
         }
+       
+        }
+        System.out.println(index);
+      
     }
-    System.out.println(index);
- }
+    
 
 }
