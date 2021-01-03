@@ -17,41 +17,6 @@ abc
 Sample Output
 [, c, b, bc, a, ac, ab, abc]
 */
-/*
-import java.io.*;
-import java.util.*;
-
-public class GetSubSequences {
-
-    public static void main(String[] args) throws Exception {
-        Scanner scn = new Scanner(System.in);
-        String str = scn.next();
-        ArrayList<String> res = gss(str);
-        System.out.println(res);
-    }
-
-    public static ArrayList<String> gss(String str) {
-        if(str.length() == 0){
-            ArrayList<String> bres = new ArrayList<>();//Creating baseresultArrayList
-            bres.add("");//Adding space to baseresultArrayList
-            return bres;
-        }
-        char ch = str.charAt(0);//getiing a
-        String ss = str.substring(1);//getting bc
-        ArrayList<String> rres = gss(ss);//getting list of subsequences of bc
-        
-        ArrayList<String> myres = new ArrayList<>();//creating myres 
-        for(String s: rres){
-            myres.add("" + s);//Adding space with aubsequences of bc in myres
-        }
-        for(String s: rres){
-            myres.add(ch + s);//Adding a with subsequences of bc in myres
-        }
-        return myres;//returning myres
-    }
-
-}
-*/
 
 import java.io.*;
 import java.util.*;
