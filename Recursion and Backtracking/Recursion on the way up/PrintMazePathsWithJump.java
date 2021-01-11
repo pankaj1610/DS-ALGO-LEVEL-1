@@ -65,14 +65,15 @@ public class PrintMazePathsWithJump {
             System.out.println(psf);
             return;
         }
+        //Horizontal move
         for(int move = 1; move <= dc - sc; move++){
             printMazePaths(sr, sc + move, dr, dc, psf + "h" + move);
         }
-        
+        //Vertical move
         for(int move = 1; move <= dr - sr; move++){
             printMazePaths(sr + move, sc, dr, dc, psf + "v" + move);
         }
-        
+        //Diagonal move
         for(int move = 1; move <= dc - sc && move <= dr - sr; move++){
             printMazePaths(sr + move, sc + move, dr, dc, psf + "d" + move);
         }
